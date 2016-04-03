@@ -1,0 +1,41 @@
+private void установитьВремяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+
+            var dateTime = DateTime.Now;
+
+            if (f2.ShowDialog() == DialogResult.OK)
+            {
+                dateTime1 = DateTime.Now.AddHours(Convert.ToDouble(f2.SendNum1));
+                dateTime2 = DateTime.Now.AddMinutes(Convert.ToDouble(f2.SendNum2));
+                dateTime3 = DateTime.Now.AddMinutes(Convert.ToDouble(f2.SendNum3));
+
+                var timeSpan1 = (dateTime1 - dateTime);
+                var timeSpan2 = (dateTime2 - dateTime);
+                var timeSpan3 = (dateTime3 - dateTime);
+
+                string s = string.Format("\r{0:00}:{1:00}:{2:00}", (int)timeSpan1.Hours, (int)timeSpan2.Minutes, (int)timeSpan3.Seconds);                
+
+                alarmHours = (int)timeSpan1.Hours;
+                alarmMinutes = (int)timeSpan2.Minutes;
+                alarmSeconds = (int)timeSpan3.Seconds;
+
+                string str = string.Format("Время для будильника выставленно на \n{0:00}:{1:00}:{2:00}", alarmHours, alarmMinutes, alarmSeconds);
+                MessageBox.Show(str, "Будильник", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }            
+        }
+
+
+private void Alarm()
+        {
+            DateTime dt = DateTime.Now;
+
+            int h = dt.Hour;
+            int m = dt.Minute;
+            int s = dt.Second;
+
+            if ((alarmHours == h) && (alarmMinutes == m) && (alarmSeconds == s))
+            {
+                MessageBox.Show("Оно работает!!!!", "Урааааааа");
+            }
+        }

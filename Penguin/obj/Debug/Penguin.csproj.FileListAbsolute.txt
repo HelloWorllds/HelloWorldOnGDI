@@ -1,0 +1,13 @@
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\bin\Debug\Penguin.exe.config
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\bin\Debug\Penguin.exe
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\bin\Debug\Penguin.pdb
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.csprojResolveAssemblyReference.cache
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.Form1.resources
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.Properties.Resources.resources
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.csproj.GenerateResource.Cache
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.exe
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.pdb
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.Form2.resources
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.Form3.resources
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Interop.WMPLib.dll
+D:\Itstep\программирование\GDI+\работы\Penguin\Penguin\obj\Debug\Penguin.csproj.ResolveComReference.cache
